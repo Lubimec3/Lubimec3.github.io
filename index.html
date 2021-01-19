@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login page</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="body">
+        <header class="header"></header>
+        <div class="body__registration" width="500px"> 
+            <h1 class="body__title">Login</h1>
+            <div>
+                <span class="body__subtitle subtitle">E-mail address: *<br></span>
+                <input class="body__input" type="email" name="email" placeholder="Your email address (... @ ...)" ><br>
+                <span class="body__subtitle subtitle">Password: *<br></span>
+                <input class="body__input" type="password" name="psw" placeholder="********">              
+                <div class="body__container">
+                    <div>  
+                        <input type="checkbox" id="check1"><label class="body__checkbox_text" for="check1">Stay signed in</label>
+                    </div>
+                    <a class="body__link" href="http://google.com" target="_blank">Forgot password?</a>
+                </div>
+            </div> 
+            <div>
+                <input class="body__button_sign" type="submit" value="Sign in">
+            </div>
+            <div>
+                <div class="body__text">Don't have an account yet? <a class="body__registerlink" href="">Register</a>.</div>
+            </div>
+            <div class="body__container">
+                <input class="body__button_facebook" type="submit" value="Sign in with Facebook">
+                <input class="body__button_google" type="submit" value="Sign in with Google" >
+            </div>
+        </div>
+    </body>
+</html>
