@@ -1,0 +1,183 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 1px 6px rgba(131, 130, 130, 0.76);
+}
+.body__login {
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    width: 400px;
+    height: 450px;
+}
+.body__title {
+    padding-top: 10px;
+    text-align: center;
+}
+.body__subtitle {
+    text-align: left;
+    margin-left: 25px;
+}
+.subtitle {
+    font-size: 16px;
+}
+.body__input {
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    border: 0px solid white;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 30px;
+}
+.body__checkbox_text {
+    font-size: 14px;
+}
+.body__link {
+    color:rgb(255, 196, 0);
+    font-size: 14px;
+
+}
+.body__button_sign_in {
+    outline: none;
+    margin-top: 15px;
+    margin-left: 25px;
+    font:caption;
+    background-color:rgb(255, 196, 0);
+    color:white;
+    height: 30px;
+    width: 350px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}
+.body__text {
+    margin-top: 25px;
+    text-align: center;
+}
+.body__registerlink {
+    color:black;
+}
+.body__button_facebook {
+    outline: none;
+    margin-top: 10px;    
+    font:caption;
+    color:white;
+    height: 30px;   
+    width: 170px;
+    border-radius: 3px;
+    border: none;
+    background-color:rgb(23, 85, 255);
+    text-align: center;
+}
+.body__button_google {
+    outline: none;
+    margin-top: 10px;
+    font:caption;
+    color:white;
+    height: 30px;
+    width: 170px;
+    border-radius: 3px;
+    border: none;
+    background-color:rgb(253, 8, 8);
+    text-align: center;
+}
+.body__container {
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-right: 25px;
+    display:flex;
+    justify-content: space-between;
+}
+.password {
+	position: relative;
+}
+
+.password-control {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(images/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(images/no-view.svg) 0 0 no-repeat;
+}
+.body__registration-form {
+    min-width: 250px;
+    min-height: 400px;
+    width:300px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+}
+.body__registraion-input {
+    outline: none;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    border: 0px solid white;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    width: 250px;
+    height: 30px;
+}
+.body__registration-subtitle {
+    text-align: left;
+    margin-left: 25px;
+}
+.body__button_sign_up {
+    outline: none;
+    margin-top: 15px;
+    margin-left: 25px;
+    font:caption;
+    background-color:rgb(255, 196, 0);
+    color:white;
+    height: 30px;
+    width: 250px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}
+.msg {
+    text-align: center;
+    border: 1px solid rgb(255, 196, 0);
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.true {
+    color: green;
+}
+.false {
+    color: red;
+}
+.body__button_sign_up:hover {
+    background-color: rgb(231, 178, 2);
+}
+.body__button_sign_in:hover {
+    background-color: rgb(231, 178, 2);
+}
+.body__button_facebook:hover {
+    background-color: rgb(0, 59, 221);
+}
+.body__button_google:hover {
+    background-color: rgb(230, 0, 0);
+}
